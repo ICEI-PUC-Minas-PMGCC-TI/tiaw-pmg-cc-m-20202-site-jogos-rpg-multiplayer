@@ -10,9 +10,9 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 
-    <title>Favoritos</title>
+    <title>Categorias</title>
     <script src="scripts/app.js"></script>
-    <link rel="stylesheet" href="styles/styleFavoritos.css">
+    <link rel="stylesheet" href="styles/styleCategorias.css">
 </head>
 
 <body>
@@ -88,6 +88,7 @@
             </div>
         </div>
 
+
     </header>
 
     <main>
@@ -97,22 +98,39 @@
                     <img src="https://source.unsplash.com/random/142x120" alt="mini-poster">
 
                     <ul>
-                        <p class="titulo-fav">Favoritos</p>
-                        <li>Meus favoritos</li>
-
-                        <li>Pasta</li>
+                        <a href="link">
+                            <li>Indie(#9999)</li>
+                        </a>
+                        <a href="link">
+                            <li>Aventura(#9999)</li>
+                        </a>
+                        <a href="link">
+                            <li>Ação(#9999)</li>
+                        </a>
+                        <a href="link">
+                            <li>Um jogador(#9999)</li>
+                        </a>
+                        <a href="link">
+                            <li>Estratégia(#9999)</li>
+                        </a>
                     </ul>
+
+                    <img src="https://source.unsplash.com/random/140x383" alt="publicidade">
+
                 </div>
 
 
-                <div class="col-8 centro">
+                <div class="col-10 centro">
 
                     <nav class="navbar navbar-black bg-black"></nav>
-                    <p class="meusFav">Meus Favoritos</p>
-                    <p class="filtrarPor">Filtrar por</p>
+                    <button type="button" class="btn btn-secondary palavraChave">Palavras-Chaves</button>
+                    <button type="button" class="btn btn-secondary palavraChave">Condições de Pesquisa</button>
                     <form class="form-inline inline2">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Filtrar
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar
+
+                        <button type="button" class="btn btn-secondary modificarPesquisa">Modificar condições de pesquisa</button>
+                        <button type="button" class="btn btn-secondary salvarPesquisa">Salvar condições de pesquisa</button>
                         </button>
                     </form>
                     </nav>
@@ -133,78 +151,63 @@
                         <p class="mostrar">Mostrar >>>> 1-3 de 3</p>
                         <p class="exibir">Exibir:</p>
 
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                        </nav>
                     </form>
 
-                    <div class="col-12 jogosTexto">
-                        <ul class="list-unstyled">
-                            <li class="media">
-                                <img src="https://source.unsplash.com/random/130x93" class="mr-3" alt="jogo1">
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1">List-based media object</h5>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    Fusce
-                                    condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-                                    faucibus.
-                                </div>
-                            </li>
+                    <p class="categorias-jogosgratis">Categorias - Jogos Grátis</p>
+                    <div class="col-3 card1">
+                        <div class="card" style="background-color: inherit;">
+                            <img src="https://source.unsplash.com/random/108x83" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                            <li class="media my-4">
-                                <img src="https://source.unsplash.com/random/130x93" class="mr-3" alt="jogo2">
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1">List-based media object</h5>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    Fusce
-                                    condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-                                    faucibus.
-                                </div>
-                            </li>
-                            <li class="media">
-                                <img src="https://source.unsplash.com/random/130x93" class="mr-3" alt="jogo3">
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1">List-based media object</h5>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    Fusce
-                                    condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-                                    faucibus.
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="col-3 card2">
+                        <div class="card" style="background-color: inherit;">
+                            <img src="https://source.unsplash.com/random/108x83" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 card3">
+                        <div class="card" style="background-color: inherit;">
+                            <img src="https://source.unsplash.com/random/108x83" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 card4">
+                        <div class="card" style="background-color: inherit;">
+                            <img src="https://source.unsplash.com/random/108x83" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
-                <div class="col-2 paginas">
-
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination">
-                          <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                              <span aria-hidden="true">&laquo;</span>
-                            </a>
-                          </li>
-                          <li class="page-item"><a class="page-link" href="#">1</a></li>
-                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                          <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                              <span aria-hidden="true">&raquo;</span>
-                            </a>
-                          </li>
-                        </ul>
-                    </nav>
-
-                    <button type="mover1" class="btn btn-secondary mover1">Mover para uma pasta</button>
-                    <button type="lixo1" class="btn btn-secondary lixo1">Lixeira</button>    
-
-                    <button type="mover" class="btn btn-secondary mover2">Mover para uma pasta</button>
-                    <button type="lixo2" class="btn btn-secondary lixo2">Lixeira</button>   
-
-                    <button type="mover3" class="btn btn-secondary mover3">Mover para uma pasta</button>
-                    <button type="lixo3" class="btn btn-secondary lixo3">Lixeira</button>   
-                </div>
+               
 
             </div>
         </div>

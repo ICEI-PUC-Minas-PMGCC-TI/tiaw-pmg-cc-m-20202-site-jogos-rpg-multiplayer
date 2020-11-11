@@ -81,10 +81,16 @@ header div{
     margin: 10px;
 }
 
-/* Favoritos */
+/* Categorias */
 
-.meusFav{
+.categorias-jogosgratis{
     font-size: x-large;
+}
+
+
+.inline2{
+    margin-left: 0px;
+    margin-top: 20px;
     background-color: rgb(43, 43, 43);
 }
 
@@ -105,11 +111,6 @@ header div{
     
 }
 
-.list-unstyled{
-    margin-top: 20px;
-    background-color: rgb(43, 43, 43);
-}
-
 .pagination{
     margin-left: 0px;
     background-color: rgb(43, 43, 43);
@@ -118,27 +119,13 @@ header div{
 .paginas{
     background-color: rgb(43, 43, 43);
     margin-top: 0px;
-    padding-top: 170px ;
+    padding-top: 0px ;
 }
 
-.mover1{
-    margin-top: 20px;
+.cards{
+    background-color:rgb(43, 43, 43);
+}
+.card1{
+    background-color: rgb(43, 43, 43);
 }
 
-.lixo1{
-    margin-top: 10px;
-}
-.mover2{
-    margin-top: 70px;
-}
-
-.lixo2{
-    margin-top: 10px;
-}
-.mover3{
-    margin-top: 70px;
-}
-
-.lixo3{
-    margin-top: 10px;
-}
