@@ -65,7 +65,8 @@ header div{
 }
 
 .centro{
-    background-color:rgb(43, 43, 43);
+    background-color:rgb(50, 37, 126);
+    width: 100%;
     
 }
 .acessados{
@@ -78,6 +79,66 @@ header div{
 
 .slide img{
     margin: 10px;
+}
+
+/* Favoritos */
+
+.meusFav{
+    font-size: x-large;
+    background-color: rgb(43, 43, 43);
+}
+
+.inline3{
+    margin-top: 20px;
+    background-color: rgb(43, 43, 43);
+}
+
+.tituloDrop{
+    margin-right: 20px;
+}
+.mostrar{
+    margin-left: 30px;
+}
+
+.exibir{
+    margin-left: 130px;
     
-   
+}
+
+.list-unstyled{
+    margin-top: 20px;
+    background-color: rgb(43, 43, 43);
+}
+
+.pagination{
+    margin-left: 0px;
+    background-color: rgb(43, 43, 43);
+}
+
+.paginas{
+    background-color: rgb(43, 43, 43);
+    margin-top: 0px;
+    padding-top: 170px ;
+}
+
+.mover1{
+    margin-top: 20px;
+}
+
+.lixo1{
+    margin-top: 10px;
+}
+.mover2{
+    margin-top: 70px;
+}
+
+.lixo2{
+    margin-top: 10px;
+}
+.mover3{
+    margin-top: 70px;
+}
+
+.lixo3{
+    margin-top: 10px;
 }
